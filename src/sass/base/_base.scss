@@ -1,0 +1,16 @@
+@use '../vendors/destyle';
+@use '../modules/color';
+
+body {
+  background-color: color.$white;
+  color: color.$carbon;
+  font-family: 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  vertical-align: top;
+}

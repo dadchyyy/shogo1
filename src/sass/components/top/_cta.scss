@@ -1,0 +1,39 @@
+@use 'sass:color' as sass-color;
+@use '../../modules/color';
+@use '../../modules/responsive';
+
+.top-CTA {
+  background: url(../images/top/cta-bg.jpg) no-repeat center/cover;
+  text-align: center;
+  color: color.$white;
+  font-weight: 700;
+}
+
+.top-CTA_Inner {
+  padding: 59px 10px 44px;
+}
+
+.top-CTA_Title {
+  font-size: 36px;
+  line-height: 1.2;
+}
+
+.top-CTA_Text {
+  line-height: 1.8;
+  margin-top: 47px;
+}
+
+.top-CTA_Button {
+  display: inline-block;
+  margin-top: 50px;
+  background-color: color.$bordeaux;
+  width: 210px;
+  max-width: 100%;
+  padding: 19px 10px;
+  border-radius: 5px;
+
+  &:focus,
+  &:hover {
+    background-color: sass-color.scale(color.$bordeaux, $lightness: -20%);
+  }
+}

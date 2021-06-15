@@ -1,0 +1,33 @@
+@use '../../modules/color';
+@use '../../modules/responsive';
+
+.top-Mainvisual {
+  background: url(../images/top/mainvisual-bg.jpg) no-repeat center/cover;
+  color: color.$white;
+  text-align: center;
+  font-weight: 700;
+}
+
+.top-Mainvisual_Inner {
+  max-width: 980px + 10px * 2;
+  padding: 19.011976% 10px 16.471449%;
+  margin: 0 auto;
+}
+
+.top-Mainvisual_Title {
+  font-size: 20px;
+  line-height: 1.2;
+
+  @include responsive.respond-to('sm') {
+    font-size: 28px;
+  }
+
+  @include responsive.respond-to('md') {
+    font-size: 36px;
+  }
+}
+
+.top-Mainvisual_Text {
+  line-height: 1.2;
+  margin-top: 10px;
+}

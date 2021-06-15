@@ -1,0 +1,17 @@
+@use '../../modules/color';
+
+.st-Footer {
+  background-color: color.$carbon;
+  color: color.$white;
+  font-weight: 700;
+  text-align: center;
+}
+
+.st-Footer_Inner {
+  padding: 32px 10px;
+}
+
+.st-Footer_Copyright {
+  font-size: 14px;
+  line-height: 1.2;
+}
