@@ -4,6 +4,8 @@ Design: [【初級】XDデザインからのコーディング練習【HTML/CSS�
 
 Build:
 
-`$ npm i`
+```
+$ npm i
 
-`$ npm run build`
+$ npm run build
+```
